@@ -1,0 +1,111 @@
+header h1{
+    color:rgb(2, 2, 147);
+}
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    height:min-content
+}
+.container img{
+    width:100px
+}
+header {
+
+    color: #4689d5;
+    padding-top: 20px;
+    min-height: 60px;
+    
+}
+
+header a {
+     color: #4689d5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #77aaff;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #77aaff;
+    font-weight: bold;
+}
+
+#home {
+    padding: 80px 0;
+    text-align: center;
+    background-image: url(images.jpg);
+
+}
+
+#about, #services,#contact, footer {
+    padding: 80px 0;
+    text-align: center;
+}
+#about{
+    background-color: #E7EDF0;
+}
+
+
+#services .service {
+    margin: 10px;
+    padding: 0px;
+    border: 1px solid #e1cccc;
+    border-radius: 5px;
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+#services{
+    background-color: rgb(250, 232, 235);
+}
+#services .service:hover {
+   transform: scale(1.2);
+   margin-right: 40px;
+    margin-left: 26px;
+}
+#contact{
+    background-color: rgb(241, 243, 219);
+}
+footer {
+    background: #000000;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
